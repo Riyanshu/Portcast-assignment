@@ -1,0 +1,61 @@
+.detailsContainer {
+	h1 {
+		color: white;
+		margin: 0px;
+	}
+
+	.title {
+		display: flex;
+		align-items: center;
+		margin-bottom: 3rem;
+		gap: 0.5rem;
+	}
+
+	.body {
+		display: flex;
+		width: 100%;
+		gap: 2rem;
+	}
+
+	h2 {
+		color: white;
+		margin: 0px;
+		margin-bottom: 2rem;
+	}
+	
+	.info {
+		width: 20%;
+		padding: 2rem;
+		border: 1px solid #515151;
+		background-color: #1e1e1e;
+		font-size: 1.1rem;
+		color: white;
+		border-radius: 1.5rem;
+		height: fit-content;
+	
+		p {
+			margin: 5px 0;
+			line-height: 2;
+
+			strong {
+				color: #FFFFFFB3;
+			}
+		}
+	}
+
+	.tableContainer {
+		width: 80%;
+		padding: 2rem;
+		border: 1px solid #515151;
+		background-color: #1e1e1e;
+		font-size: 1.1rem;
+		color: white;
+		border-radius: 1.5rem;
+		height: fit-content;
+	}
+	
+	.recharts-wrapper {
+		margin: 0 auto;
+	}
+}
+  
